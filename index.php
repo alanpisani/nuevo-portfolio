@@ -32,6 +32,7 @@
                     <img class="avatar" src="assets/img/cara.jpeg" alt="">
                     <p style='font-size:2rem;'>Alan Pisani</p>
                     <p class="pres-card-descripcion">Desarrollador Backend enfocado en soluciones modernas con ASP.NET Core, C# y tecnologías web</p>
+                    <a class="cv-btn" href="download/cv_alan_pisani.pdf" target="_blank" download>Descargar CV</a>
                 </div>
                 <div class="presentacion-texto" id="presentacion-texto">
                     <h2 class="saludo"><span>🖐</span> Hola, soy Alan</h2>
