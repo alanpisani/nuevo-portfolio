@@ -1,5 +1,4 @@
 const form = document.getElementById("form-contacto");
-const respuesta = document.getElementById("respuesta");
 const botonForm = document.getElementById("enviar-btn");
 
 form.addEventListener('submit', (e) => {
@@ -16,10 +15,7 @@ form.addEventListener('submit', (e) => {
     .then(data => {
         botonForm.innerHTML = "Enviar";
         botonForm.disabled = false;
-        respuesta.textContent = data;
+        alert(data);
         form.reset();
     })
-    .catch(err => {
-        respuesta.textContent = "Hubo un error al enviar.";
-    });
 });

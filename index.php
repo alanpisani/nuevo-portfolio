@@ -115,7 +115,6 @@
                     <label for="nombre">Mensaje</label>
                     <textarea name="mensaje" placeholder="Escribime tu mensaje" required></textarea>
                     <button type="submit" id="enviar-btn">Enviar</button>
-                    <p id="respuesta"></p>
                 </form>
             </div>
         </section>
