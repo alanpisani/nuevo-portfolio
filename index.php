@@ -37,8 +37,7 @@
                 </div>
                 <div class="presentacion-texto" id="presentacion-texto">
                     <h2 class="saludo"><span>🖐</span> Hola, soy Alan</h2>
-                    <p class="presentacion-descripcion">Me gusta crear experiencias web claras, funcionales y con <span class="sacar-relleno" id="buena-onda-txt">buena onda</span>.</p>
-                    <div class="alguito"></div>
+                    <p class="presentacion-descripcion">Me enfoco en la claridad, funcionalidad y <span class="sacar-relleno" id="buena-onda-txt">experiencia</span> de usuario.</p>
                 </div>
             </div>
         </section>
@@ -107,7 +106,7 @@
                     </p>
                 </div>
 
-                <img src="assets/img/cara-2.jpg" alt="">
+                <img src="assets/img/cara-2.jpeg" alt="">
             </div>
         </section>
         <section class="form-section">
@@ -131,10 +130,10 @@
         <p class="copyright" id="copyright">copy</p>
         <div class="redes">
             <a href="https://www.linkedin.com/in/alan-pisani/" target="_blank">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square linkedin" aria-hidden="true"></i>
             </a>
             <a href="https://github.com/alanpisani" target="_blank">
-                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-github-square github" aria-hidden="true"></i>
             </a>
             
         </div>

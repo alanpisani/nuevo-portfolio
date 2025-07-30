@@ -104,6 +104,7 @@ ul{
 .presentacion-contenido{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 5rem;
 }
 
@@ -121,6 +122,7 @@ ul{
     opacity: 0;
     transition: .25s ease;
     transform: scale(3);
+    height: 550px;
 }
 
 .cv-btn{
@@ -130,10 +132,9 @@ ul{
     text-decoration: none;
     transition: .2s ease;
 }
-
 .cv-btn:hover{
     box-shadow: 0px 0px 10px black;
-    background-color: #270e50;
+    background-color: rgba(119, 64, 105, .7);
 }
 
 .avatar{
@@ -198,7 +199,7 @@ ul{
 
 .presentacion-descripcion{
     font-size:4rem;
-    
+    position: relative;
 }
 
 .sacar-relleno{
@@ -211,25 +212,6 @@ ul{
 .sacar-relleno:hover{
     color: white;
     -webkit-text-stroke: 0;
-}
-
-.alguito{
-    background-image: url("../assets/img/yo.jpg");
-    background-size: cover;
-    box-shadow: 0 0 10px black;
-    width: 150px;
-    position: absolute;
-    right: -100px;
-    top: 150px;
-    visibility: hidden;
-    transition:  .7s ease;
-    transform: rotate(-50deg) scaleX(0);
-    height: 200px;
-}
-
-.aparecer-alguito{
-    visibility: visible;
-    transform: rotate(0deg) scaleX(1);
 }
 
 /****/
@@ -431,5 +413,40 @@ footer{
 .redes i{
     font-size: 3rem;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.redes i:hover{
+    transform: translateY(-3px);
+}
+
+.linkedin:hover{
+    color: #0e76a8;
+}
+.github:hover{
+    color: black;
+}
+
+
+.globo-emoji {
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  font-size: 20px;
+  opacity: 0;
+  pointer-events: none;
+  scale: 2;
+  animation: flotar 5s ease-out forwards;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150px) translateX(var(--desvio-x)) scale(var(--escala));
+    opacity: 0;
+  }
 }
 
