@@ -48,12 +48,14 @@
                 <div class="proyecto-card">
                     <img src="assets/img/todo.png" alt="">
                     <div class="proyecto-detalles">
-                        <h3>Lista de tareas</h3>
-                        <div class="langs">
-                            <div class="lang asp">asp.net</div>
-                            <div class="lang bootstrap">Bootstrap</div>
+                        <div class="separador">
+                            <h3>Lista de tareas</h3>
+                            <div class="langs">
+                                <div class="lang asp">asp.net</div>
+                                <div class="lang bootstrap">Bootstrap</div>
+                            </div>
+                            <p class="card-descripcion">Sistema de gestión de tareas. Posee autenticación y relación tareas-usuario. Creada desde cero con asp.net, Javascript y Bootstrap.</p>
                         </div>
-                        <p class="card-descripcion">Sistema de gestión de tareas. Posee autenticación y relación tareas-usuario. Creada desde cero con asp.net, Javascript y Bootstrap.</p>
                         <div class="proyecto-btns">
                             <a class="basic-btn" href="https://github.com/alanpisani/lista-de-tareas-csharp" target="_blank">GitHub</a>
                             <a class="basic-btn" href='https://tasker.alanpisani.com.ar'" target="_blank">Demo</a>
@@ -64,32 +66,36 @@
                 <div class="proyecto-card">
                     <img src="assets/img/appmovil.jpeg" alt="">
                     <div class="proyecto-detalles">
-                        <h3>App móvil</h3>
-                        <div class="langs">
-                            <div class="lang asp">Flutter</div>
+                        <div class="separador">
+                            <h3>App móvil</h3>
+                            <div class="langs">
+                                <div class="lang asp">Flutter</div>
+                            </div>
+                            <p class="card-descripcion">Pequeña plataforma de minijuegos. Posee autenticación, sistema de logros y un ranking global. Hecho con flutter</p>
                         </div>
-                        <p class="card-descripcion">Pequeña plataforma de minijuegos. Posee autenticación, sistema de logros y un ranking global. Hecho con flutter.</p>
                         <div class="proyecto-btns">
                             <a class="basic-btn" href="https://github.com/alanpisani/seminario-2" target="_blank">GitHub</a>
                             <a class="basic-btn" href="download/seminario.apk" target="_blank" download>Descargar APK</a>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="proyecto-card">
-                    <img src="assets/img/todo.png" alt="">
+                <div class="proyecto-card">
+                    <img src="assets/img/coshita.png" alt="">
                     <div class="proyecto-detalles">
-                        <h3>Lista de tareas</h3>
-                        <div class="langs">
-                            <div class="lang asp">asp.net</div>
-                            <div class="lang bootstrap">Bootstrap</div>
+                        <div class="separador">
+                            <h3>Lista de tareas</h3>
+                            <div class="langs">
+                                <div class="lang javascript">Javascript</div>
+                                <div class="lang bootstrap">Bootstrap</div>
+                            </div>
+                            <p class="card-descripcion">Front end de un e-commerce de mates hechos a impresiones 3D. Trabaja con localstorage. Hecho con html, css y javascript.</p>
                         </div>
-                        <p class="card-descripcion">Sistema de gestión de tareas. Posee autenticación y relación tareas-usuario. Creada desde cero con asp.net, Javascript y Bootstrap.</p>
                         <div class="proyecto-btns">
-                            <a class="basic-btn" href="https://github.com/alanpisani/lista-de-tareas-csharp" target="_blank">GitHub</a>
-                            <a class="basic-btn" href='https://tasker.alanpisani.com.ar'" target="_blank">Demo</a>
+                            <a class="basic-btn" href="https://github.com/alanpisani/coshita-3D" target="_blank">GitHub</a>
+                            <a class="basic-btn" href='https://alanpisani.github.io/coshita-3D/'" target="_blank">Demo</a>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
         <section class="about-me-section">
@@ -109,13 +115,13 @@
                 <h2 id="contacto">Contactame</h2>
                 <form method="POST" id="form-contacto">
                     <label for="nombre">Tu nombre</label>
-                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
                     
                     <label for="email">Tu email</label>
-                    <input type="email" name="email" placeholder="Tu email" required>
+                    <input type="email" name="email" id="email" placeholder="Tu email" required>
                     
-                    <label for="nombre">Mensaje</label>
-                    <textarea name="mensaje" placeholder="Escribime tu mensaje" required></textarea>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribime tu mensaje" required></textarea>
                     <button type="submit" id="enviar-btn">Enviar</button>
                 </form>
             </div>
