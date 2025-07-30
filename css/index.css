@@ -303,11 +303,10 @@ ul{
     gap:1rem;
 }
 
-/***********/
+/*****SOBRE MI******/
 
 .about-me-section{
     background-color:#1F1F1F;
-    
 }
 
 .about-me-container{
@@ -315,7 +314,6 @@ ul{
     justify-content: space-between;
     padding:5rem 15rem;
     align-items: center;
-    
 }
 
 .about-me-text{

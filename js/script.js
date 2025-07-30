@@ -7,6 +7,8 @@ const tituloPrincipal = document.querySelector(".bienvenido");
 buenaOnda.addEventListener("mouseenter", () => alguito.classList.add("aparecer-alguito"));
 buenaOnda.addEventListener("mouseleave", () => alguito.classList.remove("aparecer-alguito"));
 
+
+
 setInterval(() => {
     presentacionCard.classList.add("veni-a-mi");
     tituloPrincipal.classList.add("chau");

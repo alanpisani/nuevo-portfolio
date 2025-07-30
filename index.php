@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan Pisani - Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
 <body>
