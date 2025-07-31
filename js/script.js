@@ -25,9 +25,6 @@ buenaOnda.addEventListener('mouseenter', () => {
     const desvioX = (Math.random() - 0.5) * 500 + 'px';
     emoji.style.setProperty('--desvio-x', desvioX);
 
-    const escala = 0.8 + Math.random() * 0.6;
-    emoji.style.setProperty('--escala', escala);
-
     buenaOnda.appendChild(emoji);
 
     setTimeout(() => emoji.remove(), 5000);

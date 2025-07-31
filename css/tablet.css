@@ -1,7 +1,8 @@
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
     .bienvenido{
-        font-size: 3rem;
+        font-size: 4rem;
         top: 100px;
+        width: 100%;
     }
 
     .alan{
@@ -13,18 +14,12 @@
     }
 
     .fondo-uno{
-        height: 30%;
+        height: 50%;
         width: 100%;
-    }
-
-    .fondo-dos{
-        flex: 1;
     }
 
     .presentacion-contenido{
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
         padding: 1rem;
         gap:2rem;
         text-align: center;
@@ -55,33 +50,33 @@
     }
 
     .presentacion-texto{
-        padding:1rem;
-        width:100%;
         gap: 1rem;
-        transform: scale(1);
-    }
-
-    /******Proyectos******/
-
-    .basic-btn{
         padding:1rem;
+        transform: scale(1);
+        width:100%;
     }
+
+    .pres-card-descripcion {
+        font-size: 1.5rem;
+    }
+
+    .cv-btn{
+        width: 100%;
+    }
+
+
+    /***Proyectos***/
+
 
     .proyectos-section h2{
         padding:1rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .proyectos-container{
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(2, auto);
         padding:1rem;
-    }
-
-    .proyecto-card{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
 
     .proyecto-detalles{
@@ -95,11 +90,11 @@
     }
 
     .proyecto-detalles h3{
-        font-size: 1.5rem; 
+        font-size: 2rem; 
     }
 
     .langs{
-        justify-content: space-evenly;
+        justify-content: space-around;
         padding-top:.5rem;
         padding-bottom:.5rem;
         gap: 1rem;
@@ -109,7 +104,7 @@
         justify-content: space-around;
     }
 
-    /*****SOBRE MI*****/
+        /*****SOBRE MI*****/
 
     .about-me-container{
         flex-direction: column-reverse;
@@ -129,23 +124,23 @@
     }
 
     .about-me-text h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .about-me-text p{
         line-height: 1.5;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .about-me-container img{
-        display: none;
+        transform: rotate(0deg);
+        margin-bottom:1rem;
     }
 
     /*****Contactame*****/
 
-
     .form-section h2{
-        font-size: 2.5rem;
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -163,4 +158,5 @@
         gap:1rem;
         width: 100%;
     }
+
 }

@@ -445,7 +445,7 @@ footer{
     opacity: 1;
   }
   100% {
-    transform: translateY(-150px) translateX(var(--desvio-x)) scale(var(--escala));
+    transform: translateY(-150px) translateX(var(--desvio-x));
     opacity: 0;
   }
 }
