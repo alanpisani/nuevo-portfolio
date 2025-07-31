@@ -4,6 +4,11 @@
     src: url("../assets/fonts/Mosk_Typeface/Mosk Bold 700.ttf") format("truetype");
 
 }
+:root {
+  --color-primario: #774069;
+  --color-secundario: darkslateblue;
+  --color-terciario: #270e50;
+}
 
 *{
     margin: 0;
@@ -11,7 +16,7 @@
     box-sizing: border-box;
     font-family: 'Mosk';
     color: white;
-    scrollbar-color: darkslateblue rgb(40, 44, 52);
+    scrollbar-color: var(--color-secundario) rgb(40, 44, 52);
     scroll-behavior: smooth;
 }
 
@@ -32,7 +37,7 @@ body {
 }
 
 nav{
-    background-color: #774069;
+    background-color: var(--color-primario);
     padding: 2rem;
 }
 
@@ -86,7 +91,7 @@ ul{
 
 .fondo-dos{
     flex: 1;
-    background-color: #774069;
+    background-color: var(--color-primario);
 }
 
 .bienvenido{
@@ -109,7 +114,7 @@ ul{
 }
 
 .presentacion-card{
-    background-color: darkslateblue;
+    background-color: var(--color-secundario);
     border:1px solid black;
     border-radius: 12px;
     display: flex;
@@ -126,7 +131,7 @@ ul{
 }
 
 .cv-btn{
-    background-color: #774069;
+    background-color: var(--color-primario);
     box-shadow: 0px 0px 5px black;
     padding: 1rem;
     text-decoration: none;
@@ -134,7 +139,7 @@ ul{
 }
 .cv-btn:hover{
     box-shadow: 0px 0px 10px black;
-    background-color: rgba(119, 64, 105, .7);
+    background-color: var(--color-terciario)
 }
 
 .avatar{
@@ -217,7 +222,7 @@ ul{
 /****/
 
 .proyectos-section{
-    background-color:darkslateblue;
+    background-color:var(--color-secundario);
     padding-bottom:5rem;
 }
 
@@ -256,15 +261,13 @@ ul{
 }
 
 .separador{
-    display: flex;
-    flex-direction: column;
+    display: flex; flex-direction: column;
     gap: 1rem;
 }
 
 .proyecto-card img{
     object-fit: fill;
-    width: 100%;
-    height: 225px;
+    width: 100%; height: 225px;
     display: block;
 }
 
@@ -335,7 +338,7 @@ ul{
 }
 
 .about-me-container img{
-    border: 5px solid darkslateblue;
+    border: 5px solid var(--color-secundario);
     border-radius: 14px;
     height: 300px;
     transform: rotate(4deg);
@@ -344,7 +347,7 @@ ul{
 /***********/
 
 .form-section{
-    background-color: #774069;
+    background-color: var(--color-primario);
 }
 
 .form-section h2{
@@ -378,7 +381,7 @@ input, textarea{
 
 input:focus, textarea:focus{
     box-shadow: 5px -2px 0px black;
-    background-color: darkslateblue;
+    background-color: var(--color-secundario);
     color: white;
 }
 
@@ -388,17 +391,17 @@ input:focus, textarea:focus{
     padding: 1rem 2rem;
     border-radius: 6px;
     transition: .2s ease;
-    background-color: darkslateblue;
+    background-color: var(--color-secundario);
 }
 
 .form-content form button:hover{
-    background-color: #270e50;
+    background-color: var(--color-terciario);
 }
 
 /******/
 
 footer{
-    background-color: #270e50;
+    background-color: var(--color-terciario);
     display: flex;
     justify-content: space-around;
     align-items: center;
